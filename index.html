@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+	<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="css/style.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title>DS Academy Frontend</title>
+	</head>
+		<body>
+			<div class="wrapper">
+			<form class="form">
+				<div class="form__header">
+				<span class="form__header-span">Задать вопрос</span>
+				</div>
+				<div class="form__content">
+				<input type="text" class="form__content-input" id="name" name="name" placeholder="Фамилия Имя Отчество *" pattern="^[а-яА-ЯёЁ]+[\s\-]+[а-яА-ЯёЁ]+[\s\-]+[а-яА-ЯёЁ]+" required>
+				<input type="text" class="form__content-input" id="phone" name="phone" placeholder="Телефон *" pattern="^[\+\d][\d\+\s\-]{4,14}\d$" required>
+				<input type="text" class="form__content-input" id="email" name="email" placeholder="Email" pattern="\S+@[a-z]+.[a-z]+">
+				</div>
+				<div class="form__footer">
+				<button class="form__footer-btn" type="submit">ОТПРАВИТЬ ЗАПРОС</button> 
+				</div>
+				<form>
+				</form>
+			</form>
+			</div>
+			<script src="js/main.js"></script>
+		<body>
+</html>
+	

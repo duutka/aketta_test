@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.wrapper{
+	display:flex;
+	justify-content:center;
+}
+
+.form{
+   height: 312px;
+    width: 388px;
+    background: #F7F5F9;
+    margin-top: 30px;
+    border-radius: 12px;
+    box-shadow: 5px 5px 15px 0px rgb(0 0 0 / 25%);
+}
+
+.form__header{
+    margin-left: 35px;
+    margin-top: 27px;
+    margin-bottom: 17px;
+}
+
+.form__header-span{
+	font-family: Roboto;
+	font-size: 19px;
+	font-style: normal;
+	font-weight: bold;
+}
+
+.form__content{
+	display:flex;
+	flex-direction:column;
+}
+
+.form__content-input{
+height: 32px;
+    width: 304px;
+    padding-left: 10px;
+    margin-left: 35px;
+    margin-right: 37px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    border-color: rgba(255,255,255, 0);
+}
+
+
+.form__content-input::placeholder{
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+
+	color: #D0C9D6;
+}
+
+.form__content-input:focus{
+	border: 2px solid #854FC8;
+	outline:none;
+}
+
+.form__content-input:hover{
+	border: 2px solid #854FC8;
+
+}
+
+.form__footer{
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-bottom: 40px;
+}
+
+.form__footer-btn{
+height: 38px;
+    width: 320px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255,255,255);
+    background-color: #6979F8;
+    border-radius: 6px;
+    border: 1px solid #6979F8;
+}
+
+
+.form__footer-btn:hover{
+	border: 2px solid #854FC8;
+
+}
+
+.form__footer-btn:focus{
+	outline:none;
+	border: 3px solid #854FC8;
+}
